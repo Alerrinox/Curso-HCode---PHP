@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+	<meta charset="utf-8">
 	<title></title>
 </head>
 <body>
@@ -16,7 +17,7 @@
 	var_dump("$nome");
 
 	/* var_dump da bug nas versões 5.6.31 e 7.0.23, imprime o diretorio da pasta junto com o resultado. */
-	
+
 ?>
 </body>
 </html>
