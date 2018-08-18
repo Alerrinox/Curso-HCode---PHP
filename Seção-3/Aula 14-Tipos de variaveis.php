@@ -64,7 +64,8 @@
 	echo "<br/><br/>";
 
 /////////////////////////////////////////////////////
-
+	
+	//Resource (Obs.: variável especial, que mantém uma referência a um recurso externo).
 	//metodo para ler arquivo 
 	$arquivo = fopen("Aula 14-Tipos de variaveis.php", "r");
 	var_dump($arquivo);
