@@ -1,5 +1,6 @@
 <?php 
 
+	// COMPARADORES LOGICOS
 	$a = 55.0;
 	$b = 55;
 
