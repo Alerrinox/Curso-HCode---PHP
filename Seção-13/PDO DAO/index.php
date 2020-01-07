@@ -16,9 +16,16 @@
     //print_r(json_encode($r));
 
 	//carrega um usuario usando o login e a senha 
-	$usu = new Usuario();
-	$usu->login("Mane","163637");
-	echo $usu;
+	//$usu = new Usuario();
+	//$usu->login("Mane","163637");
+	//echo $usu;
 
+	//$aluno = new Usuario("treta","huehuehues");
+	//echo $aluno;
+
+	$alteracao = new Usuario();
+	$alteracao->loadById(19);
+	$alteracao->update("157deXXT","ppk21");
+	echo $alteracao;
 
  ?> 
