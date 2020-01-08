@@ -119,6 +119,19 @@
 			//$this->setData($result);
 		}
 
+		public function delete(){
+			$sql = new Sql();
+			$sql->select("DELETE FROM tb_usuarios WHERE idusuarios = :ID", array(
+				":ID" => $this->getIdUsuario()
+			));
+
+			$this->getIdUsuario(0);
+			$this->getDeslogin("");
+			$this->getDessenha("");
+			$this->getDtCadastro();
+
+		}
+
 		public function __toString(){
 
 			return json_encode(array(
